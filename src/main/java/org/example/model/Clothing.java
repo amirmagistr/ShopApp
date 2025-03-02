@@ -1,7 +1,7 @@
 package org.example.model;
 
 public class Clothing {
-    private final int id;
+    private int id;
     private String name;
     private int price;
     private String category;
@@ -15,6 +15,10 @@ public class Clothing {
 
     public int getId() {
         return id;
+    }
+
+    public void setId(int id){
+        this.id = id;
     }
 
     public String getName() {
